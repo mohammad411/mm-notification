@@ -13,6 +13,10 @@ define('MMN_PLUGIN_INC_DIR',plugin_dir_path(__FILE__).'admin/includes/');
 define('MMN_PLUGIN_VIEWS_DIR',plugin_dir_path(__FILE__).'admin/views/');
 define('MMN_PLUGIN_JS_DIR',plugins_url('admin/js/',__FILE__));
 define('MMN_PLUGIN_SETTINGS_KEY','MMN_PLUGIN_SETTINGS_KEY');
+
+/**
+ * Test Git
+ */
 $mmn_settings=array(
     'mmn_activation'=>'active',
     'mmn_text_notification'=>'',
